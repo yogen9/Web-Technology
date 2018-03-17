@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="head">
+	<h1>Registration Form for Student</h1>
+	</div>
+
+	<div id="form">
+	<form>
+	<fieldset>
+    <legend>Personal :</legend>
+		<input type="text" name="fname" autofocus=" " placeholder="  First name"> 
+		 <input type="text" name="lname" placeholder="  Last name"> <br>
+		<input type="text" name="id" required="" placeholder="  Id Number">
+		 <input type="password" name="password" pattern=".{5,10}" required title="5 to 10 char " placeholder="  password"><br>
+	</fieldset><br>
+ 
+	<fieldset>
+    <legend>Gender : </legend>
+   	  	<input type="radio" name="gender" value="male">   Male <br>
+	  	<input type="radio" name="gender" value="female"> Female <br>
+	</fieldset><br>
+
+	<fieldset>
+    <legend> What do you have Want?  </legend>
+	 		<input type="checkbox" name="Bike"> Bike <br>
+	 		<input type="checkbox" name="Car"> Car <br>
+	</fieldset><br>
+
+	<fieldset>
+    <legend> What do you have want to Buy ?</legend>
+		<select>
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="mercedes">Mercedes</option>
+			<option value="audi">Audi</option>
+		</select>
+	</fieldset><br>
+	
+	<fieldset>
+    <legend> Comments : </legend>
+		<textarea rows="4" cols="30" placeholder="">
+		This is textarea
+		</textarea>
+	</fieldset><br>
+	
+	<fieldset>
+    <legend> Submit File </legend>
+	<input type="file" name="file"> 
+	</fieldset><br>
+	
+	<input type="submit" name="submit">   <input type="reset" name="reset">
+	<button>This is test Button</button>
+	</form>
+	</div>
+	
+</body>
+</html>

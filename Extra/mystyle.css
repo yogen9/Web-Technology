@@ -1,0 +1,9 @@
+table {
+	color: green;
+	text-align: center;
+	/*border-collapse: collapse;*/
+
+}
+th {
+	color: red;
+}
